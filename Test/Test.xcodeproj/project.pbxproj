@@ -14,6 +14,7 @@
 		8BA82CAE1B0DDB57007FB66B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA82CAD1B0DDB57007FB66B /* Images.xcassets */; };
 		8BA82CB11B0DDB57007FB66B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA82CAF1B0DDB57007FB66B /* LaunchScreen.xib */; };
 		8BA82CBD1B0DDB57007FB66B /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA82CBC1B0DDB57007FB66B /* TestTests.m */; };
+		8BDB7A2C1B0E0A5A000069E9 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB7A2B1B0E0A5A000069E9 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8BA82CB61B0DDB57007FB66B /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA82CBB1B0DDB57007FB66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA82CBC1B0DDB57007FB66B /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		8BDB7A2A1B0E0A5A000069E9 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		8BDB7A2B1B0E0A5A000069E9 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8BA82CAD1B0DDB57007FB66B /* Images.xcassets */,
 				8BA82CAF1B0DDB57007FB66B /* LaunchScreen.xib */,
 				8BA82CA01B0DDB57007FB66B /* Supporting Files */,
+				8BDB7A2A1B0E0A5A000069E9 /* Car.h */,
+				8BDB7A2B1B0E0A5A000069E9 /* Car.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				8BA82CA91B0DDB57007FB66B /* ViewController.m in Sources */,
 				8BA82CA61B0DDB57007FB66B /* AppDelegate.m in Sources */,
+				8BDB7A2C1B0E0A5A000069E9 /* Car.m in Sources */,
 				8BA82CA31B0DDB57007FB66B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				8BA82CC21B0DDB57007FB66B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BA82CC31B0DDB57007FB66B /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				8BA82CC51B0DDB57007FB66B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
